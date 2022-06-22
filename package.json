@@ -1,0 +1,39 @@
+{
+  "name": "ssbd",
+  "version": "0.0.1",
+  "description": "ssb (secure scuttlebutt) p2p daemon",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/av8ta/ssbd.git"
+  },
+  "keywords": [
+    "ssb",
+    "p2p",
+    "daemon"
+  ],
+  "author": "av8ta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/av8ta/ssbd/issues"
+  },
+  "homepage": "https://github.com/av8ta/ssbd#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "secret-stack": "^6.4.1",
+    "ssb-caps": "^1.1.0",
+    "ssb-config": "^3.4.6",
+    "ssb-plugins": "^1.0.4"
+  },
+  "devDependencies": {
+    "ssb-db": "^20.4.1",
+    "ssb-master": "^1.0.3",
+    "@metacentre/shipyard-ssb": "^1.1.0",
+    "standard": "^17.0.0"
+  }
+}
