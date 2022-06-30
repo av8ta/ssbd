@@ -31,9 +31,9 @@
     "ssb-plugins": "^1.0.4"
   },
   "devDependencies": {
+    "@metacentre/shipyard-ssb": "^1.2.0",
     "ssb-db": "^20.4.1",
     "ssb-master": "^1.0.3",
-    "@metacentre/shipyard-ssb": "^1.1.0",
     "standard": "^17.0.0"
   }
 }
