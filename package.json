@@ -1,6 +1,6 @@
 {
   "name": "ssbd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ssb (secure scuttlebutt) p2p daemon",
   "type": "commonjs",
   "main": "index.js",
