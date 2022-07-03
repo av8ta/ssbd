@@ -34,7 +34,8 @@ function createServer (options = {}) {
   // load plugins from array
   if (plugins.length > 0) {
     plugins.forEach(plugin => {
-      loader(createStack, plugin)
+      if (isString(plugin)) loader(createStack, require(plugin))
+      else loader(createStack, plugin)
     })
   } else console.info('[ssbd] Did you forget to pass an array of plugins to load?')
 
@@ -57,3 +58,7 @@ function createServer (options = {}) {
 }
 
 module.exports = createServer
+
+function isString (s) {
+  return !!(typeof s === 'string' || s instanceof String)
+}
